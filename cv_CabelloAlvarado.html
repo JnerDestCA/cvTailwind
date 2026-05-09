@@ -3,35 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Jenner Cabello</title>
-    <link rel="stylesheet" href="css_cv.css">
 </head>
 <body>
-    <header>
-        <p>997494297 | 2225948 | cabelloalvaradojenner@gmail.com</p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#perfil">Perfil</a>
-                </li>
-                <li>
-                    <a href="#estudios">Estudios</a>
-                </li>
-                <li>
-                    <a href="#conocimiento">Conocimiento</a>
-                </li>
-                <li>
-                    <a href="#habilidades">Habilidades</a>
-                </li>
-                <li>
-                    <a href="#intereses">Intereses</a>
-                </li>
-                <li>
-                    <a href="#contacto">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="flex justify-center bg-black border-b-2 border-green-500 sticky top-0 z-50">
+        <div class="flex flex-row h-[7vh] justify-between max-w-7xl mx-auto w-full px-10 items-center">
+            <div class="text-white font-bold text-[15px] hover:text-green-500 cursor-pointer">
+                <p>997494297 | 2225948 | cabelloalvaradojenner@gmail.com</p>
+            </div>
+            <nav>
+                <ul class="flex flex-row gap-3 text-black text-[14px] font-bold">
+                    <li class="px-3 bg-white rounded-full border-2 border-black hover:text-green-500 cursor-pointer">
+                        <a href="#perfil">Perfil</a>
+                    </li>
+                    <li class="px-3 bg-white rounded-full border-2 border-black hover:text-green-500 cursor-pointer">
+                        <a href="#estudios">Estudios</a>
+                    </li>
+                    <li class="px-3 bg-white rounded-full border-2 border-black hover:text-green-500 cursor-pointer">
+                        <a href="#conocimiento">Conocimiento</a>
+                    </li>
+                    <li class="px-3 bg-white rounded-full border-2 border-black hover:text-green-500 cursor-pointer">
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="px-3 bg-white rounded-full border-2 border-black hover:text-green-500 cursor-pointer">
+                        <a href="#intereses">Intereses</a>
+                    </li>
+                    <li class="px-3 bg-white rounded-full border-2 border-black hover:text-green-500 cursor-pointer">
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <section id="perfil" class="perfil">
         <div class="perfil-contenedor">
             <div class="perfil-imagen">
