@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenner Cabello</title>
+    <link rel="stylesheet" href="css_cv.css">
+</head>
+<body>
+    <header>
+        <p>997494297 | 2225948 | cabelloalvaradojenner@gmail.com</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#perfil">Perfil</a>
+                </li>
+                <li>
+                    <a href="#estudios">Estudios</a>
+                </li>
+                <li>
+                    <a href="#conocimiento">Conocimiento</a>
+                </li>
+                <li>
+                    <a href="#habilidades">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#intereses">Intereses</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="perfil" class="perfil">
+        <div class="perfil-contenedor">
+            <div class="perfil-imagen">
+                <img src="foto.jpeg" alt="Foto de perfil">
+            </div>
+            <div class="perfil-info">
+                <h2 class="perfil-nombre">Jenner Alexander Cabello Alvarado</h2>
+                <p class="perfil-descripcion">
+                    <p><strong>Desarrollador Full Stack en formación | Enfocado en soluciones ágiles y eficientes</strong></p>
+                    Estudiante de los últimos ciclos de Ingeniería con un enfoque claro: transformar la complejidad en simplicidad. Me especializo en el desarrollo Full Stack, priorizando la creación de soluciones rápidas, precisas y fáciles de mantener bajo la premisa de que "menos es más".
+                    Cuento con experiencia práctica en la optimización de procesos y automatización, siempre buscando que la tecnología sea una herramienta directa para resolver problemas de negocio. Mi meta a corto plazo es integrar el análisis de datos en el desarrollo de software para ofrecer respuestas estratégicas y, en el futuro cercano, fundar mi propia empresa de software orientada a impulsar la eficiencia y competitividad en mi comunidad.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="estudios-titulo">
+            <p>Estudios Realizados</p>
+        </div>
+        <hr>
+        <div class="estudios-contenedor">
+            <div class="estudios-est">
+                <img src="secundaria.jpg" alt="">
+                <h2>Colegio Inmaculada Concepción - Huacho</h2>
+                <p>Primaria</p>
+                <p>2011-2016</p>
+            </div>
+            <div class="estudios-est">
+                <img src="secundaria.jpg" alt="">
+                <h2>Colegio Inmaculada Concepción - Huacho</h2>
+                <p>Secundaria</p>
+                <p>2016-2021</p>
+            </div>
+            <div class="estudios-est">
+                <img src="uni.jpg" alt="">
+                <h2>Universidad Nacional José Faustino Sánchez</h2>
+                <p>Superior</p>
+                <p>2011-Actualidad</p>
+            </div>
+        </div>
+    </section>
+    <section >
+        <p class="habilidades-titulo">Conocimientos</p>
+        <hr>
+        <div class="habilidades-contenedor">
+            <div class="habilidades-card">
+                <img src="java.png" alt="">
+                <h2>Java</h2>
+            </div>
+            <div class="habilidades-card">
+                <img src="php.png" alt="">
+                <h2>PHP</h2>
+            </div>
+            <div class="habilidades-card">
+                <img src="mysql.png" alt="">
+                <h2>MySql</h2>
+            </div>
+            <div class="habilidades-card">
+                <img src="scrum.jpg" alt="">
+                <h2>Scrum</h2>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="conocimientos-titulo">Habilidades</p>
+        <hr>
+        <div class="conocimientos-contenedor">
+                <div class="conocimientos-card">
+                    <img src="office.png" alt="">
+                    <h2>Office - Intermedio</h2>
+                    <p>Conocimientos intermedios en el ecosistema de office</p>
+                    <meter value="50" max="100" min="0"></meter>
+                </div>
+                <div class="conocimientos-card">
+                    <img src="fast.png" alt="">
+                    <h2>python - fastApi</h2>
+                    <p>Desarrollo Apis rapidas, seguras y escalables, listas para desplegar</p>
+                    <meter value="65" max="100" min="0"></meter>
+                </div>
+                <div class="conocimientos-card">
+                    <img src="react.png" alt="">
+                    <h2>React</h2>
+                    <p>En proceso de aprendizaje .-.</p>
+                    <meter value="25" max="100" min="0"></meter>
+                </div>
+                <div class="conocimientos-card">
+                    <img src="git.png" alt="">
+                    <h2>Github</h2>
+                    <p>Manejo de versiones, repositorios y ramas</p>
+                    <meter value="75" max="100" min="0"></meter>
+                </div>
+        </div>
+    </section>
+    <section >
+        <p class="intereses-titulo">Intereses</p>
+        <div class="intereses-contenedor">
+            <div class="intereses-card">
+                <h2>Trabajo en equipo</h2>
+            </div>
+            <div class="intereses-card">
+                <h2>Codigo Limpio</h2>
+            </div>
+            <div class="intereses-card">
+                <h2>Aprendizaje Constante</h2>
+            </div>
+            <div class="intereses-card">
+                <h2>
+                    Inteligencia Artificial
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section >
+        <p class="contacto-titulo">Contacto</p>
+        <hr>
+        
+        
+            
+            
+            <hr>
+        <div class="contacto-contenerdor">
+            <div class="contacto-form1">
+            <form action="">
+                
+                    <p>Nombre</p>
+                <input type="text"><br>
+                <p>Email</p>
+                <input type="Email"><br>
+                <p>Compañia/Organizacion</p>
+                <input type="text"><br>
+                    <p>Message</p>
+                    <textarea name="" id="" rows="15" cols="80"></textarea>
+                    <hr>
+                    <input class="boton" type="submit" value="Enviar informacion">
+            </form> 
+</div>   
+<div>
+            <div class="contacto-img">
+                    <img src="fb.png" alt="">
+                    <img src="insta.png" alt="">
+                </div>
+                <h2>Referencia</h2>
+                <p>cabelloalvaradojenner@gmail.com</p>
+                <p>997494297</p>
+        </div>
+        </div>
+    </section>
+    <footer>
+
+    <div>
+        <p>
+            &copy Universidad Nacional José Faustino Sánchez Carrión
+            <br>
+            Facultad de Ingeniería Industrial, Sistemas e Informática
+            <br>
+            Escuela Profesional de Ingeniería Informática
+        </p>
+    </div>
+    <div>
+        <p>
+            Curso: Desarrollo de aplicaciones Web
+        <br>
+        Ciclo: IX
+        <br>
+        </p>
+
+    </div>
+        <div>
+            <p>
+            Estudiante: Jenner Alexander Cabello Alvarado
+            <br>
+            Docente: Ing. Ronal Flores Flores
+            </p>
+        </div> 
+    </footer>
+</body>
+</html>
