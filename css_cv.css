@@ -1,234 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* El contenedor que sale "de la nada" */
+#contenedor-oculto {
+  display: none; /* Totalmente oculto al inicio */
+  position: fixed; /* Posicionamiento absoluto respecto a la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
-body {
-    background-color: rgb(12, 10, 36);
-    color: white;
-    line-height: 1.5;
+/* La imagen con su animación */
+#img-jaja {
+  width: 350px;
+  height: auto;
+  animation: girar 2s linear infinite;
 }
 
-header {
-    background-color: blueviolet;
-    color: antiquewhite;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header p {
-    font-size: 18px;
-    font-weight: bold;
-    display: inline-block;
-}
-
-header nav {
-    float: right;
-}
-
-header ul {
-    list-style: none;
-}
-
-header li {
-    display: inline-block;
-    margin-left: 10px;
-}
-
-header li a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(74, 22, 122);
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: background 0.3s ease;
-}
-
-header li a:hover {
-    background-color: white;
-    color: rgb(12, 10, 36);
-}
-
-footer {
-    background-color: rgb(39, 39, 39);
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
-    padding: 40px;
-}
-
-section {
-    background-color: white;
-    color: rgb(12, 10, 36);
-    width: 85%;
-    margin: 30px auto;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.perfil {
-    background-color: white;
-    color: rgb(12, 10, 36);
-    width: 85%;
-    margin: 30px auto;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.perfil-contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-}
-.perfil-imagen img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-.perfil-info{
-    max-width: 600px;
-    text-align: left;
-}
-.perfil-nombre{
-    font-size: 24px;
-    color: blueviolet;
-    margin-bottom: 10px;
-}
-.perfil-descripcion{
-    font-size: 16px;
-    color: rgb(12, 10, 36);
-    line-height: 1.6;
-    text-align: justify-all;
-}
-.estudios-titulo{
-    color: blueviolet;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-.estudios-contenedor{
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    padding: 50px;
-}
-.estudios-contenedor h2{
-    color: rgb(12, 10, 36);
-    font-size: 16px;
-}
-.estudios-contenedor img{
-    height: 250px;
-    width: 300px;
-    font-size: 15px;
-    border-radius: 25px;
-}
-.estudios-est{
-    justify-items: center;
-}
-.conocimientos-titulo{
-    color: blueviolet;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-.conocimientos-contenedor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    gap: 40px;
-    margin-top: 20px;
-}
-.conocimientos-contenedor img{
-    height: 75px;
-    width: 100px;
-    border-radius: 25px;
-    display: flex;
-    justify-items: center;
-}
-.conocimientos-card{
-    justify-items: center;
-    border: 1px solid; 
-    border-left: 10px solid rgb(12, 10, 36);
-    border-radius: 15px;
-    width: 500px;
-}
-.conocimientos-card meter{
-    font-size: 40px;
-    display: flex;
-    justify-items: center;
-}
-.habilidades-titulo{
-    color: blueviolet;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-.habilidades-contenedor{
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    gap: 40px;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.habilidades-contenedor img{
-height: 75px;
-    width: 100px;
-    border-radius: 25px;
-    display: flex;
-    justify-items: center;
-}
-.habilidades-card{
-    font-size: 24px;
-    justify-items: center;
-}
-.intereses-titulo{
-    color: blueviolet;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-.intereses-contenedor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.intereses-card{
-    margin: 15px;
-    font-size: 14px;
-    justify-items: center;
-    border: 1px solid rgb(12, 10, 36);
-    border-radius: 25px;
-}
-.contacto-titulo{
-    color: blueviolet;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
-.contacto-contenerdor{
-    padding: 40px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    border: 2px solid rgb(194, 157, 90);
-    border-radius: 10px;
-}
-.contacto-img img{
-    height: 25px;
-    width: 25px;
-    border-radius: 60%;
-}
-.boton{
-    padding: 20px;
-    font-size: 14px;
-    border-radius: 24px;
-    display: flex;
-    justify-content: center;
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

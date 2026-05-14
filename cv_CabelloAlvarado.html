@@ -1,274 +1,368 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style type="text/tailwindcss">
-    @theme {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css_cv.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
         --color-filo: #00ffff;
       }
     </style>
-  <title>Jenner Cabello</title>
-</head>
+    <title>Jenner Cabello</title>
+  </head>
 
-<body class="bg-black scroll-smooth">
-  <header class="flex justify-center bg-black border-b-2 border-filo sticky top-0 z-50">
-    <div
-      class="flex flex-col lg:flex-row h-[10vh] md:h-[7vh] justify-center lg:justify-between max-w-7xl mx-auto w-full px-1 lg:px-10 items-center gap-3">
-      <div class="text-white font-bold text-[15px] hover:text-filo cursor-pointer">
-        <p>997494297 | 258 | cabelloalvaradojenner@gmail.com</p>
-      </div>
-      <nav>
-        <ul class="flex flex-row gap-3 text-black text-[14px] font-bold">
-          <li
-            class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer">
-            <a href="#perfil">Perfil</a>
-          </li>
-          <li
-            class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer">
-            <a href="#estudios">Estudios</a>
-          </li>
-          <li
-            class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer">
-            <a href="#conocimiento">Conocimiento</a>
-          </li>
-          <li
-            class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer">
-            <a href="#habilidades">Habilidades</a>
-          </li>
-          <li
-            class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer">
-            <a href="#intereses">Intereses</a>
-          </li>
-          <li
-            class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer">
-            <a href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <div class="flex flex-col justify-center px-10 lg:px-0">
-    <section id="perfil">
+  <body class="bg-black scroll-smooth">
+    <header
+      class="flex justify-center bg-black border-b-3 border-filo sticky top-0 z-50"
+    >
       <div
-        class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-12 py-7 px-5 md:px-15 lg:px-25 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]">
-        <div class="lg:w-[20vw] h-[40vh] flex justify-center items-center">
-          <img src="foto.jpeg" alt="Foto de perfil" class="w-full h-[40vh] object-cover rounded-full" />
+        class="flex flex-col lg:flex-row h-[10vh] md:h-[7vh] justify-center lg:justify-between max-w-7xl mx-auto w-full px-1 lg:px-10 items-center gap-3"
+      >
+        <div
+          class="text-white font-bold text-[15px] hover:text-filo cursor-pointer"
+        >
+          <p>997494297 | 258 | cabelloalvaradojenner@gmail.com</p>
         </div>
-        <div class="flex flex-col justify-center">
-          <h2 class="text-[19px] lg:text-2xl font-bold text-center my-3">
-            Ing. Jenner Alexander Cabello Alvarado
-          </h2>
-          <p class="text-[16px] lg:text-[18px] font-semibold my-2">
-            Desarrollador Full Stack en formación
-          </p>
-          <p class="text-[12px] lg:text-[14px] text-gray-600 text-justify">
-            Estudiante de los últimos ciclos de Ingeniería con un enfoque
-            claro: transformar la complejidad en simplicidad. Me especializo
-            en el desarrollo Full Stack, priorizando la creación de soluciones
-            rápidas, precisas y fáciles de mantener bajo la premisa de que
-            "menos es más". Cuento con experiencia práctica en la optimización
-            de procesos y automatización, siempre buscando que la tecnología
-            sea una herramienta directa para resolver problemas de negocio. Mi
-            meta a corto plazo es integrar el análisis de datos en el
-            desarrollo de software para ofrecer respuestas estratégicas y, en
-            el futuro cercano, fundar mi propia empresa de software orientada
-            a impulsar la eficiencia y competitividad en mi comunidad.
-          </p>
-        </div>
+        <nav>
+          <ul class="flex flex-row gap-3 text-black text-[14px] font-bold">
+            <li
+              class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer"
+            >
+              <a href="#perfil">Perfil</a>
+            </li>
+            <li
+              class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer"
+            >
+              <a href="#estudios">Estudios</a>
+            </li>
+            <li
+              class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer"
+            >
+              <a href="#conocimiento">Conocimiento</a>
+            </li>
+            <li
+              class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer"
+            >
+              <a href="#habilidades">Habilidades</a>
+            </li>
+            <li
+              class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer"
+            >
+              <a href="#intereses">Intereses</a>
+            </li>
+            <li
+              class="px-3 bg-white rounded-full border-2 border-black hover:text-white hover:border-filo hover:bg-black cursor-pointer"
+            >
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section id="estudios">
-      <div
-        class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]">
-        <div class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400">
-          <p class="font-bold text-2xl">Estudios Realizados</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="secundaria.jpg" class="w-full h-[30vh] rounded-2xl" />
-            <h2 class="text-center font-bold text-[16px]">
-              Colegio Inmaculada Concepción - Huacho
-            </h2>
-            <p class="text-center font-semibold text-[14px] text-gray-400">
-              Primaria
-            </p>
-            <p class="text-center font-semibold text-[13px] text-gray-400">
-              2011 - 2016
-            </p>
+    <div class="flex flex-col justify-center px-10 lg:px-0">
+      <section id="perfil">
+        <div
+          class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-12 py-7 px-5 md:px-15 lg:px-25 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]"
+        >
+          <div class="lg:w-[20vw] h-[40vh] flex justify-center items-center">
+            <img
+              src="foto.jpeg"
+              alt="Foto de perfil"
+              class="w-full h-[40vh] object-cover rounded-full"
+            />
           </div>
-
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="secundaria.jpg" class="w-full h-[30vh] rounded-2xl" />
-            <h2 class="text-center font-bold text-[16px]">
-              Colegio Inmaculada Concepción - Huacho
+          <div class="flex flex-col justify-center">
+            <h2 class="text-[19px] lg:text-2xl font-bold text-center my-3">
+              Ing. Jenner Alexander Cabello Alvarado
             </h2>
-            <p class="text-center font-semibold text-[14px] text-gray-400">
-              Secundaria
+            <p class="text-[16px] lg:text-[18px] font-semibold my-2">
+              Desarrollador Full Stack en formación
             </p>
-            <p class="text-center font-semibold text-[13px] text-gray-400">
-              2016 - 2021
-            </p>
-          </div>
-
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="uni.jpg" class="w-full h-[30vh] rounded-2xl" />
-            <h2 class="text-center font-bold text-[16px]">
-              Colegio Inmaculada Concepción - Huacho
-            </h2>
-            <p class="text-center font-semibold text-[14px] text-gray-400">
-              Superior
-            </p>
-            <p class="text-center font-semibold text-[13px] text-gray-400">
-              2022 - Actual
+            <p class="text-[12px] lg:text-[14px] text-gray-600 text-justify">
+              Estudiante de los últimos ciclos de Ingeniería con un enfoque
+              claro: transformar la complejidad en simplicidad. Me especializo
+              en el desarrollo Full Stack, priorizando la creación de soluciones
+              rápidas, precisas y fáciles de mantener bajo la premisa de que
+              "menos es más". Cuento con experiencia práctica en la optimización
+              de procesos y automatización, siempre buscando que la tecnología
+              sea una herramienta directa para resolver problemas de negocio. Mi
+              meta a corto plazo es integrar el análisis de datos en el
+              desarrollo de software para ofrecer respuestas estratégicas y, en
+              el futuro cercano, fundar mi propia empresa de software orientada
+              a impulsar la eficiencia y competitividad en mi comunidad.
             </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="conocimiento">
-      <div
-        class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]">
-        <div class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400">
-          <p class="font-bold text-2xl">Conocimientos</p>
-        </div>
-
-        <div class="grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="java.png" class="w-full h-[30vh] rounded-2xl object-contain" />
-            <h2 class="text-center font-bold text-[16px]">
-              Java
-            </h2>
-          </div>
-
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="php.png" class="w-full h-[30vh] rounded-2xl object-contain" />
-            <h2 class="text-center font-bold text-[16px]">
-              PHP
-            </h2>
-          </div>
-
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="mysql.png" class="w-full h-[30vh] rounded-2xl object-contain" />
-            <h2 class="text-center font-bold text-[16px]">
-              MySql
-            </h2>
-          </div>
-
-          <div class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer">
-            <img src="scrum.jpg" class="w-full h-[30vh] rounded-2xl object-contain" />
-            <h2 class="text-center font-bold text-[16px]">
-              Scrum
-            </h2>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="habilidades">
-      <div
-        class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]">
-        <div class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400">
-          <p class="font-bold text-2xl">Habilidades</p>
-        </div>
-        <div class="grid grid-cols-2 gap-12">
+      <section id="estudios">
+        <div
+          class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]"
+        >
           <div
-            class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-orange-500 hover:shadow-2xl hover:rounded-2xl">
-            <img src="office.png" class="h-[30vh]" />
-            <h2>Office - Intermedio</h2>
-            <p>Conocimientos intermedios en el ecosistema de office</p>
-            <meter value="50" max="100" min="0"></meter>
+            class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400"
+          >
+            <p class="font-bold text-2xl">Estudios Realizados</p>
           </div>
-          <div
-            class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-cyan-800 hover:shadow-2xl hover:rounded-2xl">
-            <img src="fast.png" alt="" class="h-[30vh] rounded-2xl" />
-            <h2>python - fastApi</h2>
-            <p>
-              Desarrollo Apis rapidas, seguras, escalables y listas para desplegar
-            </p>
-            <meter value="65" max="100" min="0"></meter>
-          </div>
-          <div
-            class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-sky-300 hover:shadow-2xl hover:rounded-2xl">
-            <img src="react.png" alt="" class="h-[30vh]" />
-            <h2>React</h2>
-            <p>En proceso de aprendizaje .-.</p>
-            <meter value="25" max="100" min="0"></meter>
-          </div>
-          <div
-            class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-black hover:shadow-2xl hover:rounded-2xl">
-            <img src="git.png" alt="" class="h-[30vh]" />
-            <h2>Github</h2>
-            <p>Manejo de versiones, repositorios y ramas</p>
-            <meter value="75" max="100" min="0"></meter>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="intereses">
-      <div
-        class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]">
-        <div class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400">
-          <p class="font-bold text-2xl">Intereses</p>
-        </div>
-        <div>
-          <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
-            <div class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105">
-              <h2>Trabajo en equipo</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img src="secundaria.jpg" class="w-full h-[30vh] rounded-2xl" />
+              <h2 class="text-center font-bold text-[16px]">
+                Colegio Inmaculada Concepción - Huacho
+              </h2>
+              <p class="text-center font-semibold text-[14px] text-gray-400">
+                Primaria
+              </p>
+              <p class="text-center font-semibold text-[13px] text-gray-400">
+                2011 - 2016
+              </p>
             </div>
-            <div class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105">
-              <h2>Codigo Limpio</h2>
+
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img src="secundaria.jpg" class="w-full h-[30vh] rounded-2xl" />
+              <h2 class="text-center font-bold text-[16px]">
+                Colegio Inmaculada Concepción - Huacho
+              </h2>
+              <p class="text-center font-semibold text-[14px] text-gray-400">
+                Secundaria
+              </p>
+              <p class="text-center font-semibold text-[13px] text-gray-400">
+                2016 - 2021
+              </p>
             </div>
-            <div class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105">
-              <h2>Aprendizaje Constante</h2>
-            </div>
-            <div class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105">
-              <h2>Inteligencia Artificial</h2>
+
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img src="uni.jpg" class="w-full h-[30vh] rounded-2xl" />
+              <h2 class="text-center font-bold text-[16px]">
+                Colegio Inmaculada Concepción - Huacho
+              </h2>
+              <p class="text-center font-semibold text-[14px] text-gray-400">
+                Superior
+              </p>
+              <p class="text-center font-semibold text-[13px] text-gray-400">
+                2022 - Actual
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="contacto">
-      <div
-        class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]">
-        <div class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400">
-          <p class="font-bold text-2xl">Contacto</p>
+      <section id="conocimiento">
+        <div
+          class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]"
+        >
+          <div
+            class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400"
+          >
+            <p class="font-bold text-2xl">Conocimientos</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img
+                src="java.png"
+                class="w-full h-[30vh] rounded-2xl object-contain"
+              />
+              <h2 class="text-center font-bold text-[16px]">Java</h2>
+            </div>
+
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img
+                src="php.png"
+                class="w-full h-[30vh] rounded-2xl object-contain"
+              />
+              <h2 class="text-center font-bold text-[16px]">PHP</h2>
+            </div>
+
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img
+                src="mysql.png"
+                class="w-full h-[30vh] rounded-2xl object-contain"
+              />
+              <h2 class="text-center font-bold text-[16px]">MySql</h2>
+            </div>
+
+            <div
+              class="px-5 pb-3 flex flex-col gap-3 hover:scale-105 transition-all cursor-pointer"
+            >
+              <img
+                src="scrum.jpg"
+                class="w-full h-[30vh] rounded-2xl object-contain"
+              />
+              <h2 class="text-center font-bold text-[16px]">Scrum</h2>
+            </div>
+          </div>
         </div>
-        <div>
-          <div class="grid grid-cols-2 lg::grid-cols-1">
-            <div class="contacto-form1">
+      </section>
+
+      <section id="habilidades">
+        <div
+          class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]"
+        >
+          <div
+            class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400"
+          >
+            <p class="font-bold text-2xl">Habilidades</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div
+              class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-orange-500 hover:shadow-2xl hover:rounded-2xl transition-all cursor-pointer"
+            >
+              <img src="office.png" class="h-[30vh]" />
+              <h2>Office - Intermedio</h2>
+              <p>Conocimientos intermedios en el ecosistema de office</p>
+              <meter value="50" max="100" min="0"></meter>
+            </div>
+            <div
+              class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-cyan-800 hover:shadow-2xl hover:rounded-2xl transition-all cursor-pointer"
+            >
+              <img src="fast.png" alt="" class="h-[30vh] rounded-2xl" />
+              <h2>python - fastApi</h2>
+              <p>
+                Desarrollo Apis rapidas, seguras, escalables y listas para
+                desplegar
+              </p>
+              <meter value="65" max="100" min="0"></meter>
+            </div>
+            <div
+              class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-sky-300 hover:shadow-2xl hover:rounded-2xl transition-all cursor-pointer"
+            >
+              <img src="react.png" alt="" class="h-[30vh]" />
+              <h2>React</h2>
+              <p>En proceso de aprendizaje .-.</p>
+              <meter value="25" max="100" min="0"></meter>
+            </div>
+            <div
+              class="p-6 flex flex-col items-center hover:border-l-8 hover:border-l-black hover:shadow-2xl hover:rounded-2xl transition-all cursor-pointer"
+            >
+              <img src="git.png" alt="" class="h-[30vh]" />
+              <h2>Github</h2>
+              <p>Manejo de versiones, repositorios y ramas</p>
+              <meter value="75" max="100" min="0"></meter>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="intereses">
+        <div
+          class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]"
+        >
+          <div
+            class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400"
+          >
+            <p class="font-bold text-2xl">Intereses</p>
+          </div>
+          <div>
+            <div
+              class="grid gap-12 md:grid-cols-2 lg:grid-cols-4 text-center font-bold"
+            >
+              <div
+                class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105 transition-all cursor-pointer"
+              >
+                <h2>Trabajo en equipo</h2>
+              </div>
+              <div
+                class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105 transition-all cursor-pointer"
+              >
+                <h2>Codigo Limpio</h2>
+              </div>
+              <div
+                class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105 transition-all cursor-pointer"
+              >
+                <h2>Aprendizaje Constante</h2>
+              </div>
+              <div
+                class="p-10 border rounded-2xl bg-yellow-100 hover:scale-105 transition-all cursor-pointer"
+              >
+                <h2>Inteligencia Artificial</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div
+          class="flex flex-col justify-center items-center gap-12 py-7 px-10 max-w-7xl mx-auto w-full my-10 border-3 border-filo bg-white rounded-2xl shadow-[0_0_30px_#FFFFFF]"
+        >
+          <div
+            class="w-[98%] flex justify-center py-2 border-b-2 border-gray-400"
+          >
+            <p class="font-bold text-2xl">Contacto</p>
+          </div>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-[1fr_auto] w-full md:px-5 gap-8"
+          >
+            <div class="flex flex-col">
               <form action="">
                 <div class="flex flex-row">
-                  <div class="text-red-600">* </div><div class="font-bold"> Nombre</div>
+                  <div class="font-bold mb-2 text-[17px]">Nombre</div>
+                  <div class="text-red-600">*</div>
                 </div>
-                <input type="text" class="border-1 rounded-sm" /><br />
+                <input
+                  type="text"
+                  class="border-1 rounded-xl w-full lg:w-[80%] px-3 py-1 focus:border-2 focus:shadow-[0_0_30px_#000000] mb-3"
+                  placeholder="Ejemplo: Alma Marcela"
+                /><br />
                 <div class="flex flex-row">
-                  <div class="text-red-600">* </div><div class="font-bold"> Email</div>
+                  <div class="font-bold mb-2 text-[17px]">Email</div>
+                  <div class="text-red-600">*</div>
                 </div>
-                <input type="Email" class="border-1 rounded-sm" /><br />
+                <input
+                  type="Email"
+                  class="border-1 rounded-xl w-full lg:w-[80%] px-3 py-1 focus:border-2 focus:shadow-[0_0_30px_#000000] mb-3"
+                  placeholder="Ejemplo: cabelloalvaradojenner@gmail.com"
+                /><br />
                 <div class="flex flex-row">
-                  <div class="text-red-600">* </div><div class="font-bold"> Compañia/Organizacion</div>
+                  <div class="font-bold mb-2 text-[17px]">
+                    Compañia/Organizacion
+                  </div>
+                  <div class="text-red-600">*</div>
                 </div>
-                <input type="text" class="border-1 rounded-sm"/><br />
+                <input
+                  type="text"
+                  class="border-1 rounded-xl w-full lg:w-[80%] px-3 py-1 focus:border-2 focus:shadow-[0_0_30px_#000000] mb-3"
+                  placeholder="Ejemplo: Riot Games"
+                /><br />
                 <div class="flex flex-row">
-                  <div class="text-red-600">* </div><div class="font-bold"> Message</div>
+                  <div class="font-bold mb-2 text-[17px]">Message</div>
+                  <div class="text-red-600">*</div>
                 </div>
-                <textarea rows="9" cols="60" class="border-1 rounded-sm mr-40 mb-12" ></textarea>
+                <textarea
+                  rows="9"
+                  cols="60"
+                  class="border-1 rounded-xl mr-40 mb-12 w-full lg:w-[80%] px-3 py-1 focus:border-2 focus:shadow-[0_0_30px_#000000]"
+                  placeholder="Ejemplo: Requiero tu talento SENIOR"
+                ></textarea>
                 <hr />
                 <div class="flex justify-center">
-                  <input class="cursor-pointer mt-4 p-4 bg-blue-200 font-bold rounded-sm hover:scale-110 transition-all" type="submit" value="Enviar informacion"/>
+                  <button
+                    class="cursor-pointer mt-4 py-2 px-4 bg-blue-200 font-bold rounded-xl hover:scale-110 transition-all"
+                    type="submit"
+                    id="btn-presioname"
+                  >
+                    Enviar información
+                  </button>
                 </div>
-                
               </form>
             </div>
+
             <div class="font-mono">
               <div class="flex gap-2 mb-6">
                 <img src="fb.png" alt="" class="h-[6vh] cursor-pointer" />
@@ -276,50 +370,58 @@
               </div>
               <div class="mb-6">
                 <h2>Referencia:</h2>
-              <p>cabelloalvaradojenner@gmail.com</p>
-              <p>997494297</p>
+                <p>cabelloalvaradojenner@gmail.com</p>
+                <p>997494297</p>
               </div>
               <div class="flex justify-center h-[46vh] mb-6">
-                <img src="pibble.gif" class="rounded-xl">
+                <img src="pibble.gif" class="rounded-xl" />
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div class="bg-black mb-24 mx-14 border-4 border-t-white ">
-      <div class="mt-24">
-      <div class="flex justify-between gap-12 text-white font-serif">
-        <div>
-          <p>
-          &copyUniversidad Nacional José Faustino Sánchez Carrión
-          <br />
-          Facultad de Ingeniería Industrial, Sistemas e Informática
-          <br />
-          Escuela Profesional de Ingeniería Informática
-          </p>
-        </div>
-        <div>
-          <p>
-            Curso: Desarrollo de aplicaciones Web
-            <br />
-            Ciclo: IX
-            <br />
-          </p>
-        </div>
-        <div>
-          <p>
-            Estudiante: Jenner Alexander Cabello Alvarado
-            <br />
-            Docente: Ing. Ronal Flores Flores
-          </p>
-        </div>
-      </div>
+      </section>
     </div>
-    </div>   
-  </footer>
-</body>
+
+    <div class="cuerpo">
+      <div id="contenedor-oculto">
+        <img src="./jajaj/jaja.jpeg" id="img-jaja" alt="Imagen girando" />
+        <p>(Haz clic fuera de la imagen para cerrar)</p>
+      </div>
+      <audio id="mi-audio" src="./jajaj/jaja.mp3" loop></audio>
+    </div>
+
+    <footer>
+      <div class="bg-black mb-24 mx-14 border-4 border-t-white">
+        <div class="mt-24">
+          <div class="flex justify-between gap-12 text-white font-serif">
+            <div>
+              <p>
+                &copyUniversidad Nacional José Faustino Sánchez Carrión
+                <br />
+                Facultad de Ingeniería Industrial, Sistemas e Informática
+                <br />
+                Escuela Profesional de Ingeniería Informática
+              </p>
+            </div>
+            <div>
+              <p>
+                Curso: Desarrollo de aplicaciones Web
+                <br />
+                Ciclo: IX
+                <br />
+              </p>
+            </div>
+            <div>
+              <p>
+                Estudiante: Jenner Alexander Cabello Alvarado
+                <br />
+                Docente: Ing. Ronal Flores Flores
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./jajaj/index.js"></script>
+  </body>
 </html>
